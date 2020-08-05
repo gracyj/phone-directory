@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Header from './Header.js';
 
 
 
@@ -9,6 +10,7 @@ class App extends Component {
          <div className="header">
            Phone Directory
          </div>
+         <Header/>
          <button> Add </button>
          <div>
            <span>Name</span> <br />
